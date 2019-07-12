@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37561" started-at="2019-07-12T17:55:09Z" finished-at="2019-07-12T17:55:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37561" started-at="2019-07-12T17:55:09Z" finished-at="2019-07-12T17:55:47Z">
+      <class name="tests.loginpageTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:tests.loginpageTest@6d4b1c02]" name="invokeBrowser" is-config="true" duration-ms="25455" started-at="2019-07-12T17:55:09Z" finished-at="2019-07-12T17:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:tests.loginpageTest@6d4b1c02]" name="verifyLogin" duration-ms="3013" started-at="2019-07-12T17:55:35Z" finished-at="2019-07-12T17:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:tests.loginpageTest@6d4b1c02]" name="afterAMethod" is-config="true" duration-ms="2" started-at="2019-07-12T17:55:38Z" finished-at="2019-07-12T17:55:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=loginpageTest.verifyLogin()[pri:0, instance:tests.loginpageTest@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="verifygetData()[pri:0, instance:tests.loginpageTest@6d4b1c02]" name="verifygetData" duration-ms="8119" started-at="2019-07-12T17:55:38Z" depends-on-methods="tests.loginpageTest.verifyLogin" finished-at="2019-07-12T17:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifygetData -->
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:tests.loginpageTest@6d4b1c02]" name="afterAMethod" is-config="true" duration-ms="1" started-at="2019-07-12T17:55:46Z" finished-at="2019-07-12T17:55:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifygetData status=SUCCESS method=loginpageTest.verifygetData()[pri:0, instance:tests.loginpageTest@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.loginpageTest@6d4b1c02]" name="closeBrowser" is-config="true" duration-ms="932" started-at="2019-07-12T17:55:46Z" finished-at="2019-07-12T17:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="flushcleanup()[pri:0, instance:tests.loginpageTest@6d4b1c02]" name="flushcleanup" is-config="true" duration-ms="271" started-at="2019-07-12T17:55:47Z" finished-at="2019-07-12T17:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushcleanup -->
+      </class> <!-- tests.loginpageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
